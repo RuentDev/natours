@@ -1,0 +1,27 @@
+[
+  {
+    "id": "01",
+    "label": "About Natours",
+    "link": "/about"
+  },
+  {
+    "id": "02",
+    "label": "Your Benefits",
+    "link": "/your-benefits"
+  },
+  {
+    "id": "03",
+    "label": "Popular Tours",
+    "link": "/popular-tours"
+  },
+  {
+    "id": "04",
+    "label": "Stories",
+    "link": "/stories"
+  },
+  {
+    "id": "05",
+    "label": "Book Now",
+    "link": "/book-now"
+  }
+]

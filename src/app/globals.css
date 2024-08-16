@@ -2,32 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media only screen and (min-width: 1200px) {
+  html{
+    font-size: 56.25%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  html{
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 112.5em) {
+  html{
+    font-size: 75%;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.7;
+  color: #777;
+  font-size: 1.6rem;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+::selection {
+  background-color: #55c57a;
+  color: #ffffff;
+}
+
+
+
+/* TEXT BUTTON */
+.text-button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+
+/* TOURS CARDS */
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front-side,
+.card-back-side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back-side {
+  transform: rotateY(180deg);
+}
+
+.overlayWithImage1 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url('/img/nat-5.jpg');
+}
+
+.overlayWithImage2 {
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(/img/nat-6.jpg);
+}
+
+.overlayWithImage3 {
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(/img/nat-7.jpg);
+}
+.overlayWithoutImage1 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.overlayWithoutImage2 {
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.overlayWithoutImage3 {
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+.bgSpan1 {
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+}
+
+.bgSpan2 {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+}
+
+.bgSpan3 {
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
 }

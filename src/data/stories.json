@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "I HAD THE BEST WEEK EVER WITH MY FAMILY", 
+    "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
+    "image": "/img/nat-8.jpg",
+    "name": "Mary Smith"
+  },
+  {
+    "id": 2,
+    "title": "WOW! MY LIFE IS COMPLETELY DIFFERENT NOW", 
+    "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
+    "image": "/img/nat-9.jpg",
+    "name": "Jack Wilson"
+  } 
+]

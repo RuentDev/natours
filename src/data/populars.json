@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "the sea explorer",
+    "image": "/img/nat-5.jpg",
+    "features": [
+      "3 day tours",
+      "Up to 30 people",
+      "2 tour guides",
+      "Sleep in cozy hotels",
+      "Difficulty: Easy"
+    ],
+    "price": {
+      "amount": 297.00,
+      "currencyCode": "$"
+    },
+    "details": {
+      "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+      "description2": "et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta."
+    }
+  },
+  {
+    "id": 2,
+    "title": "the forest hiker",
+    "image": "/img/nat-6.jpg",
+    "features": [
+      "7 day tours",
+      "Up to 40 people",
+      "6 tour guides",
+      "Sleep in provided tents",
+      "Difficulty: Medium"
+    ],
+    "price": {
+      "amount": 497.00,
+      "currencyCode": "$"
+    },
+    "details": {
+      "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+      "description2": "et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta."
+    }
+  },
+  {
+    "id": 3,
+    "title": "the snow adventurer",
+    "image": "/img/nat-7.jpg",
+    "features": [
+      "5 day tours",
+      "Up to 15 people",
+      "2 tour guides",
+      "Sleep in provided tents",
+      "Difficulty: Hard"
+    ],
+    "price": {
+      "amount": 897.00,
+      "currencyCode": "$"
+    },
+    "details": {
+      "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+      "description2": "et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta."
+    }
+  }
+]
